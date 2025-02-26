@@ -1,0 +1,29 @@
+.home{
+    margin: 10rem;
+    background-color: var(--secondaryColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.missionStatement{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+a{
+    background-color: var(--backgroundColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--textColor);
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    border: 3px solid var(--secondaryColor);
+}

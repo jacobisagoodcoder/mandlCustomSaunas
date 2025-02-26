@@ -1,0 +1,15 @@
+<main>
+  <nav>
+    <div class="hamburger" (click)="toggleMenu()">&#9776;</div>
+    <h1>{{ title }}</h1>
+    <div class="menu">
+      <a href="/">Home</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/about">About</a>
+      <a href="/faq">FAQ</a>
+      <a href="/contact">Contact</a>
+    </div>
+  </nav>
+</main>
+
+<router-outlet />
