@@ -9,7 +9,7 @@ export async function POST(req) {
 
     const response = await resend.emails.send({
       from: "gradymandl@mandlcustomsaunas.com",
-      to: "jacobvandyke194@gmail.com", 
+      to: "gradymandl@mandlcustomsaunas.com", 
       subject:"New Sauna Inquiry",
       html: `<p>First Name: ${fName} </p> <p>Last Name: ${lName} </p> <p>Email: ${email} </p> <p>Other notes: ${message}</p>`,
     });
