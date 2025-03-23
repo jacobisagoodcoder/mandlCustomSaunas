@@ -13,7 +13,7 @@ const HamburgerIcon = () => {
     if(e.classList.contains("change") && mobileMenu){
       console.log("Hamburger icon is active");
 
-      mobileMenu.style.display = "block";
+      mobileMenu.style.display = "grid";
     } else if(e.classList.contains("change") == false){
       mobileMenu.removeAttribute("style");
     }

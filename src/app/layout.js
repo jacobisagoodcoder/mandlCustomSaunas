@@ -13,12 +13,17 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Mandl Custom Saunas",
-  description: "Custom saunas designed for your needs"
+  description: "Custom saunas designed for your needs",
+  icons: {
+    icon: "/images/mandlLogo.jpg",
+    shortcut: "/images/mandlLogo.jpg",
+    apple: "/images/mandlLogo.jpg",
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en-us">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

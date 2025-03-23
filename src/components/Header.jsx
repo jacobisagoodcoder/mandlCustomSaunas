@@ -19,8 +19,8 @@ const Header = () => {
         <div>CONTACT</div>
       </div>
       <div id="hamburgerIcon"><HamburgerIcon/></div>
+      <div id="mobileImg"><img src="./images/mandlLogo.jpg" /></div>
       <div className="mobileHeader">
-        <div><img src="./images/mandlLogo.jpg" /></div>
         <div>HOME</div>
         <div>GALLERY</div>
         <div>FAQ</div>

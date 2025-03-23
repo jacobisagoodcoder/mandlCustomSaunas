@@ -1,12 +1,17 @@
 header{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.defaultHeader{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
     grid-template-rows: 1fr;
     align-items: center;
     text-align: center;
-    color: white;
-    font-size: 1.5rem;
-    
+    background-color: rgba(0, 0, 0, 50%)
+
 }
 
 img{
@@ -19,15 +24,25 @@ header > div > span{
     font-weight: bold;
 }
 
-.mobileHeader{
+.mobileHeader,
+#hamburgerIcon,
+#mobileImg{
     display: none;
 }
 
 /* media query */
 
 @media screen and (max-width: 768px) {
-    header{
+
+    header,
+    #mobileImg{
         display: block;
+    }
+
+    #mobileImg{
+        display: grid;
+        justify-content: center;
+        margin: 1rem;
     }
 
     #hamburgerIcon{
@@ -45,7 +60,14 @@ header > div > span{
     .mobileHeader{
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        background-color: rgba(173, 149, 121);
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .mobileHeader > div{
+        border: 0.5px solid black;
     }
 
     img{
