@@ -18,3 +18,39 @@ header > div > span{
     font-size: 2rem;
     font-weight: bold;
 }
+
+.mobileHeader{
+    display: none;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    header{
+        display: block;
+    }
+
+    #hamburgerIcon{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-items: left;
+    }
+
+    .defaultHeader{
+        display: none;
+    }
+
+    .mobileHeader{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    img{
+        width: 10rem;
+        border: 1px solid black;
+    }
+  }
+  

@@ -3,3 +3,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media screen and (max-width: 768px) {
+  body{
+    background-position: center center;
+    height: 100vh;
+  }
+}
