@@ -1,4 +1,4 @@
-import "../styles/Header.css";
+import "../styles/header.css";
 import HamburgerIcon from "./HamburgerIcon";
 
 const Header = () => {
