@@ -16,7 +16,7 @@ const Header = () => {
           <br /> GET A FREE CONSULTATION
         </div>
         <div>FAQ</div>
-        <div>CONTACT</div>
+        <div><a href="/contact">CONTACT</a></div>
       </div>
       <div id="hamburgerIcon"><HamburgerIcon/></div>
       <div id="mobileImg"><img src="./images/mandlLogo.jpg" /></div>
