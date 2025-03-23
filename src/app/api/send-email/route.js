@@ -5,13 +5,13 @@ const resend = new Resend("re_355sry9i_Q9RNw4D15iSE99AkNZrpTVjF");
 
 export async function POST(req) {
   try {
-    const { email, subject, message } = await req.json(); // Get form data
+    const { email, subject, message, fName, lName } = await req.json();
 
     const response = await resend.emails.send({
       from: "gradymandl@mandlcustomsaunas.com",
       to: "jacobvandyke194@gmail.com", 
-      subject:"New Submission from Website",
-      html: `<p>This works!</p>`,
+      subject:"New Sauna Inquiry",
+      html: `<p>First Name: ${fName} </p> <p>Last Name: ${lName} </p> <p>Email: ${email} </p> <p>Other notes: ${message}</p>`,
     });
 
     return Response.json({ success: true, data: response });

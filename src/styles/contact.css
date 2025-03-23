@@ -1,0 +1,54 @@
+form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 4rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+fieldset{
+    background-color: rgba(173, 149, 121, 90%);
+    padding: 1rem;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+}
+
+fieldset > div{
+    justify-self: center;
+}
+
+.inputContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+}
+legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(173, 149, 121, 90%);
+    color: black;
+}
+
+.spanTwo{
+    grid-column: span 2; /* Makes this item span across two columns */
+
+}
+
+textarea{
+    padding: 1rem;
+    resize: none;
+}
+
+button{
+    border-radius: 1rem;
+    background-color: white;   
+    color: black;
+    padding: 0.5rem;
+    cursor: pointer;
+}

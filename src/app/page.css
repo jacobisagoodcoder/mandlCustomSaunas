@@ -1,0 +1,20 @@
+.homePage {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto; /* Adjusts to content height */
+  justify-items: center;    /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
+  height: 100%;             /* Takes full height of its parent container */
+}
+
+.contactBtn {
+  background-color: white;
+  padding: 1rem;
+  height: auto;  
+  margin-top: 10rem;
+  border-radius: 1rem;
+  color: black;
+  border: 3px solid black;
+  
+}
