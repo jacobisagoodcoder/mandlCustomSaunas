@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import './hamburgerIcon.css';
+import '../styles/hamburgerIcon.css';
 
 const HamburgerIcon = () => {
 

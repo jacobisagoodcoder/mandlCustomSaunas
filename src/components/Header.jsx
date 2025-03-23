@@ -1,5 +1,5 @@
-import "./header.css"; // Importing the CSS file for styling
-import HamburgerIcon from "../hamburgerIcon/HamburgerIcon";
+import "../styles/Header.css";
+import HamburgerIcon from "./HamburgerIcon";
 
 const Header = () => {
   return (
