@@ -79,7 +79,7 @@ function ContactPage() {
           >
             {loading ? "Sending..." : "Send Email"}
           </button>
-          {success && <h2>{success}</h2>}
+          {success && <p>{success}</p>}
           </div>
         </fieldset>
       </form>

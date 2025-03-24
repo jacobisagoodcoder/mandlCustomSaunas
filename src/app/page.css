@@ -16,5 +16,15 @@
   border-radius: 1rem;
   color: black;
   border: 3px solid black;
-  
+}
+
+@media screen and (max-width: 768px) {
+  .contactBtn{
+    margin: 0;
+  }
+
+  .homePage{
+    height: 60%;
+  }
+
 }
